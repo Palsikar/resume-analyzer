@@ -1,0 +1,62 @@
+{
+  "name": "EmailAutomationForShortlisting",
+  "projectId": "1d04416f-ddcc-435e-8845-14947690358d",
+  "description": "i want an email automation in which it sorts out emails havng subject as resume or Resume and takes the pdf attachment from the particular mails and checks if the pdf has text like java,c++ and python and then if this condition is met, then it replies by a mail saying \"you have been shortlisted for round 2\"",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "2.12.1",
+    "UiPath.GSuite.Activities": "2.8.23",
+    "UiPath.IntegrationService.Activities": "1.12.0",
+    "UiPath.System.Activities": "24.10.7",
+    "UiPath.WebAPI.Activities": "1.21.1"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.11.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "10c22d4d-bf29-49c7-8e3f-890d0843c1ff",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}

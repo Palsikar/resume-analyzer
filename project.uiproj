@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "EmailAutomationForShortlisting",
+  "Description": "i want an email automation in which it sorts out emails havng subject as resume or Resume and takes the pdf attachment from the particular mails and checks if the pdf has text like java,c++ and python and then if this condition is met, then it replies by a mail saying \"you have been shortlisted for round 2\"",
+  "MainFile": "Main.xaml"
+}
